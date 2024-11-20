@@ -9,28 +9,26 @@ namespace If_og_else_oppgave1
     internal class Oppgave1
     {
         int numb1 = 3;
-        int numb2 = 4;
-        public bool Run() 
+        int numb2 = 3;
+        bool isEqual = false;
+        public void Run() 
         {
-           
             if (numb1 == numb2)
             {
-                return true;
+                isEqual = true;
+                Console.WriteLine("Is equal");
             }
-
             else
             {
-                return false;
+                isEqual = false;
+                Console.WriteLine("Is not equal");
             }
 
-        }
 
-       private int numbs()
-        {
-            return numb1;
-            
 
         }
+       
+
 
     }
 }
